@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Star Rating</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h3 class="title">Rate Your Experience</h3>
+        <div class="rating">
+          <input type="radio" id="star5" name="rating" value="5"/>
+          <label for="star5"></label>
+          <input type="radio" id="star4" name="rating" value="4"/>
+          <label for="star4"></label>
+          <input type="radio" id="star3" name="rating" value="3"/>
+          <label for="star3"></label>
+          <input type="radio" id="star2" name="rating" value="2"/>
+          <label for="star2"></label>
+          <input type="radio" id="star1" name="rating" value="1"/>
+          <label for="star1"></label>
+        </div>
+        <h4 id="thanks">Thanks for rating us!</h4>
+        <form method="get">
+          <textarea rows="8" cols="30" placeholder="Write your review here..."></textarea>
+          <button type="submit" id="btn">SUBMIT REVIEW</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
